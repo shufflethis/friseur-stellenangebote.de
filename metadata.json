@@ -1,0 +1,7 @@
+{
+  "name": "Friseur Stellenangebote",
+  "description": "Die führende Plattform für Jobs im Friseurhandwerk. Verbindet Salons mit Top-Talenten.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
