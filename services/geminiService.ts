@@ -1,7 +1,14 @@
 import { GoogleGenAI } from "@google/genai";
 
 const apiKey = process.env.API_KEY || '';
-const ai = new GoogleGenAI({ apiKey });
+
+let _ai: GoogleGenAI | null = null;
+const getAI = (): GoogleGenAI => {
+  if (!_ai) {
+    _ai = new GoogleGenAI({ apiKey });
+  }
+  return _ai;
+};
 
 export const generateCareerAdvice = async (query: string, role: string): Promise<string> => {
   if (!apiKey) {
@@ -26,7 +33,7 @@ export const generateCareerAdvice = async (query: string, role: string): Promise
   `;
 
   try {
-    const response = await ai.models.generateContent({
+    const response = await getAI().models.generateContent({
       model: 'gemini-2.5-flash',
       contents: query,
       config: {
