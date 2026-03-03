@@ -3,47 +3,253 @@ import { JobListing, FAQItem } from './types';
 export const MOCK_JOBS: JobListing[] = [
   {
     id: '1',
-    title: 'Friseurmeister (m/w/d) als Salonleitung',
-    employer: 'Exklusiv Salon Müller',
-    location: 'München, Innenstadt',
+    title: 'Friseur/in',
+    employer: 'Petra Stolz-Mauracher',
+    location: 'Innsbruck',
     type: 'Vollzeit',
-    salary: 'ab 3.800€ + Provision',
-    postedDate: '2023-10-24',
-    description: 'Wir suchen eine erfahrene Führungspersönlichkeit für unseren Flagship-Store.',
-    tags: ['Meistertitel', 'Führungserfahrung', 'Coloration']
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-03'
   },
   {
     id: '2',
-    title: 'Top-Stylist / Colorist (m/w/d)',
-    employer: 'Hair & Art Studio',
-    location: 'Berlin, Kreuzberg',
+    title: 'Friseur/in',
+    employer: 'dm drogerie markt GmbH',
+    location: 'Zell am See',
     type: 'Vollzeit',
-    salary: 'Übertariflich + Umsatzbeteiligung',
-    postedDate: '2023-10-22',
-    description: 'Du lebst für Balayage und kreative Schnitte? Komm in unser kreatives Team.',
-    tags: ['Balayage', 'Trendcuts', 'English speaking']
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-03'
   },
   {
     id: '3',
-    title: 'Auszubildender im Friseurhandwerk (m/w/d)',
-    employer: 'Barbershop Classic',
-    location: 'Hamburg, St. Pauli',
-    type: 'Ausbildung',
-    salary: 'Tarifliche Ausbildungsvergütung',
-    postedDate: '2023-10-20',
-    description: 'Lerne das Handwerk von der Pike auf in einem der coolsten Barbershops der Stadt.',
-    tags: ['Ausbildung', 'Herrenfach', 'Bartpflege']
+    title: 'Friseur/in',
+    employer: 'dm drogerie markt GmbH',
+    location: 'Wien,Liesing',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-03'
   },
   {
     id: '4',
-    title: 'Mobiler Brautstylist (m/w/d)',
-    employer: 'Wedding Dreams Agency',
-    location: 'Köln / NRW',
-    type: 'Freelance',
-    salary: 'Honorarbasis',
-    postedDate: '2023-10-18',
-    description: 'Unterstütze unser Team in der Hochsaison für Brautfrisuren und Make-up.',
-    tags: ['Hochstecken', 'Make-up', 'Wochenende']
+    title: 'Friseur/in',
+    employer: 'KLIPP Frisör GmbH',
+    location: 'Liezen',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-03'
+  },
+  {
+    id: '5',
+    title: 'Friseur/in',
+    employer: 'Aichner Pepi Modecoiffeur',
+    location: 'Lienz',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-03'
+  },
+  {
+    id: '6',
+    title: 'Friseur/in (m/w/d)',
+    employer: 'Rosenthal Ulrike',
+    location: 'Hammelburg',
+    type: 'Vollzeit',
+    description: 'Friseur/in (m/w/d)',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-03'
+  },
+  {
+    id: '7',
+    title: 'Friseur/in',
+    employer: 'Erika\'s Haarstudio Erika Probst',
+    location: 'Gallspach',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-02'
+  },
+  {
+    id: '8',
+    title: 'Friseur/in',
+    employer: 'Friseurstudio Coolhair',
+    location: 'Graz,14.Bez.:Eggenberg',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-02'
+  },
+  {
+    id: '9',
+    title: 'Friseur/in',
+    employer: 'Friseur im Auhof',
+    location: 'Linz',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-02'
+  },
+  {
+    id: '10',
+    title: 'Friseur/in',
+    employer: 'Renner Jacqueline',
+    location: 'Purkersdorf',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-02'
+  },
+  {
+    id: '11',
+    title: 'Friseur/in',
+    employer: 'Claudia\'s Style & Beauty',
+    location: 'Gleisdorf',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-02'
+  },
+  {
+    id: '12',
+    title: 'Friseur/in',
+    employer: 'Friseur Sea Style',
+    location: 'Wien,Brigittenau',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-02'
+  },
+  {
+    id: '13',
+    title: 'Friseur/in (m/w/d)',
+    employer: 'Andrea Hronek',
+    location: 'Prien am Chiemsee',
+    type: 'Vollzeit',
+    description: 'Friseur/in (m/w/d)',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-02'
+  },
+  {
+    id: '14',
+    title: 'Friseur/in',
+    employer: 'KLIPP Frisör Seiersberg',
+    location: 'Seiersberg',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-01'
+  },
+  {
+    id: '15',
+    title: 'Friseur/in',
+    employer: 'KLIPP Frisör GmbH',
+    location: 'Ansfelden',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-01'
+  },
+  {
+    id: '16',
+    title: 'Friseur/in',
+    employer: 'Haarwork OG',
+    location: 'Meggenhofen',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-01'
+  },
+  {
+    id: '17',
+    title: 'Friseur/in',
+    employer: 'HAARTREFF Inh. Künstl Evelyn',
+    location: 'Wien,Donaustadt',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-02-27'
+  },
+  {
+    id: '18',
+    title: 'Friseur/in',
+    employer: 'Klipp Frisör Murpark',
+    location: 'Graz,07.Bez.:Liebenau',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-02-27'
+  },
+  {
+    id: '19',
+    title: 'Friseur/in',
+    employer: 'HAVVA HAIRARTIST',
+    location: 'Wien,Donaustadt',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-02-27'
+  },
+  {
+    id: '20',
+    title: 'Friseur (m/w/d)',
+    employer: 'Salon Benessere Panagiota Komninou',
+    location: 'Ulm, Donau',
+    type: 'Vollzeit',
+    description: 'Friseur (m/w/d)',
+    tags: ['Friseur/in'],
+    postedDate: '2026-02-27'
+  },
+  {
+    id: '21',
+    title: 'Friseur/in',
+    employer: 'KLIPP Frisör Peggau',
+    location: 'Peggau',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-02-27'
+  },
+  {
+    id: '22',
+    title: 'Friseur/in',
+    employer: 'KLIPP Frisör GmbH',
+    location: 'Leoben',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-02-27'
+  },
+  {
+    id: '23',
+    title: 'Friseur/in',
+    employer: 'KLIPP Frisör GmbH',
+    location: 'Klagenfurt,10.Bez.:St. Peter',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-02-27'
+  },
+  {
+    id: '24',
+    title: 'Friseur/in',
+    employer: 'KLIPP Frisör GmbH',
+    location: 'Tamsweg',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-02-27'
+  },
+  {
+    id: '25',
+    title: 'Friseur/in',
+    employer: 'KLIPP Frisör GmbH',
+    location: 'Enns',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-02-27'
   }
 ];
 
