@@ -229,31 +229,30 @@ const ImpressumPage = () => (
       <h3>Betreiber der Website</h3>
       <p>
         Friseur Stellenangebote GmbH<br />
-        Musterstraße 123<br />
-        10115 Berlin<br />
+        Schliemannstraße 23<br />
+        10437 Berlin<br />
         Deutschland
       </p>
       
       <h3>Kontakt</h3>
       <p>
-        Telefon: +49 (0) 30 12345678<br />
-        E-Mail: kontakt@friseur-stellenangebote.de
+        Telefon: +49 30 403 6654 32<br />
+        E-Mail: info@socialmediaventure.com
       </p>
       
       <h3>Vertretungsberechtigte Geschäftsführer</h3>
-      <p>Max Mustermann, Erika Musterfrau</p>
+      <p>Thomas Sander, Erika Musterfrau</p>
       
       <h3>Registereintrag</h3>
       <p>
         Eintragung im Handelsregister.<br />
         Registergericht: Amtsgericht Berlin-Charlottenburg<br />
-        Registernummer: HRB 123456
-      </p>
+        Registernummer: HRB 162557 B</p>
 
       <h3>Umsatzsteuer-ID</h3>
       <p>
         Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:<br />
-        DE 123 456 789
+        DE298885799
       </p>
 
       <h3 className="mt-8">Haftungsausschluss</h3>
