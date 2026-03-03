@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# friseur-stellenangebote.de - Friseur Stellenangebote
+
+> friseur-stellenangebote.de ist ein spezialisiertes Jobportal fuer Friseur-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Friseur
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://friseur-stellenangebote.de
+- Arbeitgeber-Kontakt: https://friseur-stellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://friseur-stellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Friseur-Stellenangebote
+- Karriere-Ratgeber fuer Friseur
+- Gehaltsvergleiche und Brancheninformationen

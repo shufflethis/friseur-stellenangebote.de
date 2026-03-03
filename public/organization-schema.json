@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "friseur-stellenangebote.de",
+  "url": "https://friseur-stellenangebote.de",
+  "description": "Spezialisiertes Jobportal fuer Friseur-Stellenangebote in Deutschland, Oesterreich und der Schweiz.",
+  "logo": "https://friseur-stellenangebote.de/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "availableLanguage": [
+      "German",
+      "English"
+    ]
+  },
+  "sameAs": []
+}

@@ -6,6 +6,9 @@ import { JobCard } from './components/JobCard';
 import { AICareerCoach } from './components/AICareerCoach';
 import { InfoSection } from './components/InfoSection';
 import { UserRole } from './types';
+import Impressum from './pages/Impressum';
+import Datenschutz from './pages/Datenschutz';
+import AutorSeite from './pages/AutorSeite';
 
 // --- Sub-components for pages ---
 
@@ -389,6 +392,9 @@ export default function App() {
             <Route path="/employers" element={<EmployersPage />} />
             <Route path="/talent" element={<TalentPage />} />
             <Route path="/impressum" element={<ImpressumPage />} />
+                    {/* // HR-UPDATER: v1.0 */}
+          <Route path="/datenschutz" element={<Datenschutz />} />
+          <Route path="/autor/thomas-sander" element={<AutorSeite />} />
           </Routes>
         </main>
         <Footer />
