@@ -3,6 +3,56 @@ import { JobListing, FAQItem } from './types';
 export const MOCK_JOBS: JobListing[] = [
   {
     id: '1',
+    title: 'Friseurin (m/w/d)',
+    employer: 'Faber und Schneider GbR Love your hair',
+    location: 'Manching',
+    type: 'Vollzeit',
+    description: 'Friseurin (m/w/d)',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '2',
+    title: 'Friseurin / Friseur (m/w/d)',
+    employer: 'Lisa Benstöm',
+    location: 'Dresden',
+    type: 'Vollzeit',
+    description: 'Friseurin / Friseur (m/w/d)',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '3',
+    title: 'Friseur/in (m/w/d)',
+    employer: 'Manuela Wiederkehr',
+    location: 'Dogern',
+    type: 'Vollzeit',
+    description: 'Friseur/in (m/w/d)',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '4',
+    title: 'Friseur (m/w/d)',
+    employer: 'Frau Jette Hellweg Friseurmeisterin',
+    location: 'Stavenhagen, Reuterstadt',
+    type: 'Vollzeit',
+    description: 'Friseur (m/w/d)',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '5',
+    title: 'Friseur/in',
+    employer: 'Jana Schramm',
+    location: 'Kropp bei Schleswig',
+    type: 'Vollzeit',
+    description: 'Friseur/in',
+    tags: ['Friseur/in'],
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '6',
     title: 'Friseur/in',
     employer: 'Petra Stolz-Mauracher',
     location: 'Innsbruck',
@@ -12,7 +62,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-03'
   },
   {
-    id: '2',
+    id: '7',
     title: 'Friseur/in',
     employer: 'dm drogerie markt GmbH',
     location: 'Zell am See',
@@ -22,7 +72,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-03'
   },
   {
-    id: '3',
+    id: '8',
     title: 'Friseur/in',
     employer: 'dm drogerie markt GmbH',
     location: 'Wien,Liesing',
@@ -32,7 +82,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-03'
   },
   {
-    id: '4',
+    id: '9',
     title: 'Friseur/in',
     employer: 'KLIPP Frisör GmbH',
     location: 'Liezen',
@@ -42,7 +92,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-03'
   },
   {
-    id: '5',
+    id: '10',
     title: 'Friseur/in',
     employer: 'Aichner Pepi Modecoiffeur',
     location: 'Lienz',
@@ -52,7 +102,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-03'
   },
   {
-    id: '6',
+    id: '11',
     title: 'Friseur/in (m/w/d)',
     employer: 'Rosenthal Ulrike',
     location: 'Hammelburg',
@@ -62,7 +112,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-03'
   },
   {
-    id: '7',
+    id: '12',
     title: 'Friseur/in',
     employer: 'Erika\'s Haarstudio Erika Probst',
     location: 'Gallspach',
@@ -72,7 +122,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-02'
   },
   {
-    id: '8',
+    id: '13',
     title: 'Friseur/in',
     employer: 'Friseurstudio Coolhair',
     location: 'Graz,14.Bez.:Eggenberg',
@@ -82,7 +132,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-02'
   },
   {
-    id: '9',
+    id: '14',
     title: 'Friseur/in',
     employer: 'Friseur im Auhof',
     location: 'Linz',
@@ -92,7 +142,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-02'
   },
   {
-    id: '10',
+    id: '15',
     title: 'Friseur/in',
     employer: 'Renner Jacqueline',
     location: 'Purkersdorf',
@@ -102,7 +152,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-02'
   },
   {
-    id: '11',
+    id: '16',
     title: 'Friseur/in',
     employer: 'Claudia\'s Style & Beauty',
     location: 'Gleisdorf',
@@ -112,7 +162,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-02'
   },
   {
-    id: '12',
+    id: '17',
     title: 'Friseur/in',
     employer: 'Friseur Sea Style',
     location: 'Wien,Brigittenau',
@@ -122,7 +172,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-02'
   },
   {
-    id: '13',
+    id: '18',
     title: 'Friseur/in (m/w/d)',
     employer: 'Andrea Hronek',
     location: 'Prien am Chiemsee',
@@ -132,7 +182,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-02'
   },
   {
-    id: '14',
+    id: '19',
     title: 'Friseur/in',
     employer: 'KLIPP Frisör Seiersberg',
     location: 'Seiersberg',
@@ -142,7 +192,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-01'
   },
   {
-    id: '15',
+    id: '20',
     title: 'Friseur/in',
     employer: 'KLIPP Frisör GmbH',
     location: 'Ansfelden',
@@ -152,7 +202,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-01'
   },
   {
-    id: '16',
+    id: '21',
     title: 'Friseur/in',
     employer: 'Haarwork OG',
     location: 'Meggenhofen',
@@ -162,7 +212,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-03-01'
   },
   {
-    id: '17',
+    id: '22',
     title: 'Friseur/in',
     employer: 'HAARTREFF Inh. Künstl Evelyn',
     location: 'Wien,Donaustadt',
@@ -172,7 +222,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-02-27'
   },
   {
-    id: '18',
+    id: '23',
     title: 'Friseur/in',
     employer: 'Klipp Frisör Murpark',
     location: 'Graz,07.Bez.:Liebenau',
@@ -182,7 +232,7 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-02-27'
   },
   {
-    id: '19',
+    id: '24',
     title: 'Friseur/in',
     employer: 'HAVVA HAIRARTIST',
     location: 'Wien,Donaustadt',
@@ -192,62 +242,12 @@ export const MOCK_JOBS: JobListing[] = [
     postedDate: '2026-02-27'
   },
   {
-    id: '20',
+    id: '25',
     title: 'Friseur (m/w/d)',
     employer: 'Salon Benessere Panagiota Komninou',
     location: 'Ulm, Donau',
     type: 'Vollzeit',
     description: 'Friseur (m/w/d)',
-    tags: ['Friseur/in'],
-    postedDate: '2026-02-27'
-  },
-  {
-    id: '21',
-    title: 'Friseur/in',
-    employer: 'KLIPP Frisör Peggau',
-    location: 'Peggau',
-    type: 'Vollzeit',
-    description: 'Friseur/in',
-    tags: ['Friseur/in'],
-    postedDate: '2026-02-27'
-  },
-  {
-    id: '22',
-    title: 'Friseur/in',
-    employer: 'KLIPP Frisör GmbH',
-    location: 'Leoben',
-    type: 'Vollzeit',
-    description: 'Friseur/in',
-    tags: ['Friseur/in'],
-    postedDate: '2026-02-27'
-  },
-  {
-    id: '23',
-    title: 'Friseur/in',
-    employer: 'KLIPP Frisör GmbH',
-    location: 'Klagenfurt,10.Bez.:St. Peter',
-    type: 'Vollzeit',
-    description: 'Friseur/in',
-    tags: ['Friseur/in'],
-    postedDate: '2026-02-27'
-  },
-  {
-    id: '24',
-    title: 'Friseur/in',
-    employer: 'KLIPP Frisör GmbH',
-    location: 'Tamsweg',
-    type: 'Vollzeit',
-    description: 'Friseur/in',
-    tags: ['Friseur/in'],
-    postedDate: '2026-02-27'
-  },
-  {
-    id: '25',
-    title: 'Friseur/in',
-    employer: 'KLIPP Frisör GmbH',
-    location: 'Enns',
-    type: 'Vollzeit',
-    description: 'Friseur/in',
     tags: ['Friseur/in'],
     postedDate: '2026-02-27'
   }
